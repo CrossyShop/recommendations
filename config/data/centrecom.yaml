@@ -1,0 +1,33 @@
+---
+style: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;"
+items:
+  - title: HP 2022, HP Pavillion x360 2-in-1, 14" Windows 11 Laptop, 12th...
+    price: $350
+    link: https://www.jbhifi.com.au/products/asus-vivobook-pro-16-4k-ultra-hd-oled-laptop-ryzen-9-geforce-rtx3050ti
+    rating: 5
+    image:
+      src: https://auspost.com.au/shop/static/WFS/AusPost-Shop-Site/-/AusPost-Shop/en_AU/product/24325-AusPost/2/resized_560x560.jpg
+      alt: Asus
+  - title: Lenovo IdeaPad Slim 1i Laptop, 14-inch HD, Intel Celeron N4020...
+    price: $1235
+    link: https://www.apple.com/au/imac-24
+    rating: 3
+    image:
+      src: https://www.reboot-it.com.au/assets/full/177111.gif?20221110161350
+      alt: White Tshirt
+  - title: MSI Laptop 16" Windows 18 Laptop - MSI DUAL 10510U (1.8 GHz...
+    price: $3500
+    link: https://www.jbhifi.com.au/products/msi-crosshair-15-15-6-qhd-gaming-laptop-12th-gen-i7-geforce-rtx3060
+    rating: 0
+    image:
+      src: https://plecom.imgix.net/iil-291489-650734.jpg?fit=fillmax&fill=solid&fill-color=ffffff&auto=format&w=1000&h=1000
+      alt: Grey Tshirt
+  - title: HP ENVY 13" Windows 11 Laptop - Intel Core i7-10510U (1.8 GHz...
+    price: $2200
+    link: https://www.jbhifi.com.au/products/hp-6x0r2pa-14-hd-laptop-256gb-amd-athlon?
+    image:
+      src: https://blogs.windows.com/wp-content/uploads/mswbprod/sites/2/2018/05/e55fcbfa05409c0e2262acca4756e76b-1024x870.jpg
+      alt: Logo Tshirt
+
+
+# https://tailwindui.com/img/ecommerce-images/home-page-02-product-01.jpg

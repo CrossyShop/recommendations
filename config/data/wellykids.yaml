@@ -1,0 +1,30 @@
+style: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;"
+items:
+  - title: Variety Pack
+    price: $64.99
+    link: https://livewelly.co/products/smoothie-variety-pack
+    rating: 5
+    image:
+      src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothies-20-pack-variety-c2.png?v=1673475995
+      alt: variety-pack
+  - title: Tropicool Punch
+    price: $64.99
+    link: https://livewelly.co/products/tropicool-punch
+    rating: 5
+    image:
+      src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothie-tropicool-punch-20-pack-free-bottle-c_77ecbdc9-2cb3-45a7-bd74-f9827fb6aded.jpg?v=1673476245
+      alt: tropicool-punch
+  - title: Mango Passion
+    price: $64.99
+    link: https://livewelly.co/products/mango-passion
+    rating: 5
+    image:
+      src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothie-mango-passion-20-pack-free-bottle-c_da39680c-c75e-4eda-9b5f-d51cf59984a5.jpg?v=1673476201
+      alt: mango-passion
+  - title: Welly Kids Smoothie Bottle
+    price: $19.99
+    link: https://livewelly.co/products/smoothie-bottle
+    rating: 5
+    image:
+      src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Smoothie-Bottle_70b3d175-a51f-4387-9349-e0b5690b86ea.png?v=1675152910
+      alt: smoothie-bottle

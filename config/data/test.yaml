@@ -1,0 +1,36 @@
+---
+style: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;"
+title:
+  text: Customers also purcharsed
+  style: "color: #0077be;"
+items:
+  - title: Black
+    price: $35
+    link: test
+    rating: 5
+    image:
+      src: https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg
+      alt: Black Tshirt
+  - title: White
+    price: $35
+    link: test
+    rating: 5
+    image:
+      src: https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg
+      alt: White Tshirt
+  - title: Grey
+    price: $35
+    link: test
+    rating: 5
+    image:
+      src: https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-03.jpg
+      alt: Grey Tshirt
+  - title: Logo
+    price: $35
+    link: test
+    rating: 5
+    image:
+      src: https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-04.jpg
+      alt: Logo Tshirt
+
+# https://tailwindui.com/img/ecommerce-images/home-page-02-product-01.jpg
