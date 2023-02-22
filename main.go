@@ -30,7 +30,7 @@ type Data struct {
 	Title struct {
 		Text  string `yaml:"text" json:"text"`
 		Style string `yaml:"style" json:"style"`
-	}
+	} `yaml:"title" json:"title"`
 	BackgroundColor string `yaml:"backgroundColor" json:"backgroundColor"`
 	Items           []Item `yaml:"items" json:"items"`
 }
@@ -43,7 +43,7 @@ type Item struct {
 	Image  struct {
 		Src string `yaml:"src" json:"src"`
 		Alt string `yaml:"alt" json:"alt"`
-	}
+	} `yaml:"image" json:"image"`
 }
 
 func getRecommandations(c *gin.Context) {
