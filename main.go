@@ -5,7 +5,9 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"time"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"gopkg.in/yaml.v3"
 )
@@ -67,22 +69,13 @@ func main() {
 
 	router := gin.Default()
 
-	router.Use(func(c *gin.Context) {
-		c.Writer.Header().Set("Access-Control-Allow-Origin", "https://crossyshop-widget.herokuapp.com/widget/, https://cdn.shopify.com")
-		c.Writer.Header().Set("Access-Control-Allow-Methods", "GET, POST")
-		c.Writer.Header().Set("Access-Control-Allow-Headers", "X-API-KEY")
-		c.Writer.Header().Set("Access-Control-Allow-Credentials", "false")
-
-		c.Next()
-	})
-
-	// router.Use(cors.New(cors.Config{
-	// 	AllowOrigins:     []string{"https://crossyshop-widget.herokuapp.com/widget/", "https://cdn.shopify.com"},
-	// 	AllowMethods:     []string{"POST", "GET"},
-	// 	AllowHeaders:     []string{"X-API-KEY"},
-	// 	AllowCredentials: false,
-	// 	MaxAge:           24 * time.Hour,
-	// }))
+	router.Use(cors.New(cors.Config{
+		AllowOrigins:     []string{"https://crossyshop-widget.herokuapp.com/widget/", "https://cdn.shopify.com"},
+		AllowMethods:     []string{"POST", "GET"},
+		AllowHeaders:     []string{"X-API-KEY"},
+		AllowCredentials: false,
+		MaxAge:           24 * time.Hour,
+	}))
 
 	router.GET("/recommandations", validateAPIKey(), getRecommandations)
 
