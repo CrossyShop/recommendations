@@ -52,7 +52,7 @@ func getRecommandations(c *gin.Context) {
 	fmt.Println("1")
 	if err != nil {
 		fmt.Println("2")
-		log.Fatal(err)
+		log.Print(err)
 		fmt.Println("3")
 		// c.Status(http.StatusNotFound)
 		fmt.Println("4")
