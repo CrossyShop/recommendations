@@ -47,7 +47,7 @@ type Item struct {
 
 func getRecommandations(c *gin.Context) {
 
-	buf, err := ioutil.ReadFile("config/data/" + c.Query("alias") + ".yaml")
+	buf, err := ioutil.ReadFile("config/data/" + c.Param("alias") + ".yaml")
 	if err != nil {
 		log.Fatal(err)
 		c.Status(http.StatusNotFound)
@@ -77,7 +77,7 @@ func main() {
 		MaxAge:           24 * time.Hour,
 	}))
 
-	router.GET("/recommandations", validateAPIKey(), getRecommandations)
+	router.GET("/recommandations/:alias", validateAPIKey(), getRecommandations)
 
 	router.Run()
 }
