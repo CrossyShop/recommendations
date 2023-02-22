@@ -50,7 +50,8 @@ func getRecommandations(c *gin.Context) {
 	buf, err := ioutil.ReadFile("config/data/" + c.Param("alias") + ".yaml")
 	if err != nil {
 		log.Fatal(err)
-		c.Status(http.StatusNotFound)
+		// c.Status(http.StatusNotFound)
+		c.IndentedJSON(http.StatusOK, nil)
 		return
 	}
 
