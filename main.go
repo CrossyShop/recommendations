@@ -59,7 +59,8 @@ func getRecommandations(c *gin.Context) {
 	err = yaml.Unmarshal(buf, &data)
 	if err != nil {
 		log.Fatal(err)
-		c.Status(http.StatusBadRequest)
+		c.IndentedJSON(http.StatusOK, nil)
+		// c.Status(http.StatusBadRequest)
 		return
 	}
 
