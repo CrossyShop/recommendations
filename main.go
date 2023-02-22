@@ -49,26 +49,26 @@ type Item struct {
 func getRecommandations(c *gin.Context) {
 
 	buf, err := ioutil.ReadFile("config/data/" + c.Param("alias") + ".yaml")
-	fmt.Printf("1")
+	fmt.Println("1")
 	if err != nil {
-		fmt.Printf("2")
+		fmt.Println("2")
 		log.Fatal(err)
-		fmt.Printf("3")
+		fmt.Println("3")
 		// c.Status(http.StatusNotFound)
-		fmt.Printf("4")
+		fmt.Println("4")
 		c.IndentedJSON(http.StatusOK, nil)
 		return
 	}
 
-	fmt.Printf("5")
+	fmt.Println("5")
 	var data Data
 	err = yaml.Unmarshal(buf, &data)
 	if err != nil {
-		fmt.Printf("6")
+		fmt.Println("6")
 		log.Fatal(err)
-		fmt.Printf("7")
+		fmt.Println("7")
 		c.IndentedJSON(http.StatusOK, nil)
-		fmt.Printf("8")
+		fmt.Println("8")
 		// c.Status(http.StatusBadRequest)
 		return
 	}
