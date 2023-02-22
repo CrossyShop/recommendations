@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -48,21 +49,30 @@ type Item struct {
 func getRecommandations(c *gin.Context) {
 
 	buf, err := ioutil.ReadFile("config/data/" + c.Param("alias") + ".yaml")
+	fmt.Printf("1")
 	if err != nil {
+		fmt.Printf("2")
 		log.Fatal(err)
+		fmt.Printf("3")
 		// c.Status(http.StatusNotFound)
+		fmt.Printf("4")
 		c.IndentedJSON(http.StatusOK, nil)
 		return
 	}
 
+	fmt.Printf("5")
 	var data Data
 	err = yaml.Unmarshal(buf, &data)
 	if err != nil {
+		fmt.Printf("6")
 		log.Fatal(err)
+		fmt.Printf("7")
 		c.IndentedJSON(http.StatusOK, nil)
+		fmt.Printf("8")
 		// c.Status(http.StatusBadRequest)
 		return
 	}
+	fmt.Printf("9")
 
 	c.IndentedJSON(http.StatusOK, data)
 }
