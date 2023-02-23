@@ -1,6 +1,7 @@
 items:
   - title: Variety Pack
     price: $64.99
+    reducedPrice: $54.99
     link: https://livewelly.co/products/smoothie-variety-pack
     rating: 5
     image:
@@ -8,13 +9,15 @@ items:
       alt: variety-pack
   - title: Mango Passion
     price: $64.99
+    reducedPrice: $54.99
     link: https://livewelly.co/products/mango-passion
     rating: 5
     image:
       src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothie-mango-passion-20-pack-free-bottle-open-c.jpg
       alt: mango-passion
-  - title: Welly Kids Smoothie Bottle
+  - title: Berry Beets
     price: $19.99
+    reducedPrice: $9.99
     link: https://livewelly.co/products/smoothie-bottle
     rating: 5
     image:
