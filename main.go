@@ -36,11 +36,12 @@ type Data struct {
 }
 
 type Item struct {
-	Title  string `yaml:"title" json:"title"`
-	Price  string `yaml:"price" json:"price"`
-	Link   string `yaml:"link" json:"link"`
-	Rating int64  `yaml:"rating" json:"rating"`
-	Image  struct {
+	Title        string `yaml:"title" json:"title"`
+	Price        string `yaml:"price" json:"price"`
+	ReducedPrice string `yaml:"reducedPrice" json:"reducedPrice"`
+	Link         string `yaml:"link" json:"link"`
+	Rating       int64  `yaml:"rating" json:"rating"`
+	Image        struct {
 		Src string `yaml:"src" json:"src"`
 		Alt string `yaml:"alt" json:"alt"`
 	} `yaml:"image" json:"image"`
