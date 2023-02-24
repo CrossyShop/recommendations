@@ -1,25 +1,54 @@
 items:
-  - title: Variety Pack
-    price: $64.99
-    reducedPrice: $54.99
-    link: https://livewelly.co/products/smoothie-variety-pack
+  # WellyKids
+  # - title: Variety Pack
+  #   price: $64.99
+  #   reducedPrice: $54.99
+  #   link: https://livewelly.co/products/smoothie-variety-pack
+  #   rating: 5
+  #   image:
+  #     src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothies-20-pack-variety-sachets-c_8cfc65b9-9344-4219-b3d3-3ff849ec45a0.png
+  #     alt: variety-pack
+  # - title: Mango Passion
+  #   price: $64.99
+  #   reducedPrice: $54.99
+  #   link: https://livewelly.co/products/mango-passion
+  #   rating: 5
+  #   image:
+  #     src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothie-mango-passion-20-pack-free-bottle-open-c.jpg
+  #     alt: mango-passion
+  # - title: Berry Beets
+  #   price: $19.99
+  #   reducedPrice: $9.99
+  #   link: https://livewelly.co/products/smoothie-bottle
+  #   rating: 5
+  #   image:
+  #     src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothie-berry-beets-20-pack-free-bottle-open-c.jpg
+  #     alt: smoothie-bottle
+
+
+  # BubsKingdom
+  - title: Zero Gravity Car Track Set
+    price: $100
+    reducedPrice: $49.95
+    link: https://bubskingdom.com/products/zero-gravity-race-track
     rating: 5
     image:
-      src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothies-20-pack-variety-sachets-c_8cfc65b9-9344-4219-b3d3-3ff849ec45a0.png
+      src: https://cdn.shopify.com/s/files/1/0402/8422/5701/products/46pcs_1024x1024@2x.jpg?v=1643267881
       alt: variety-pack
-  - title: Mango Passion
-    price: $64.99
-    reducedPrice: $54.99
-    link: https://livewelly.co/products/mango-passion
+  - title: Dinosaur Track Set Toy
+    price: $50
+    reducedPrice: $39.95
+    link: https://bubskingdom.com/products/dinosaur-track-set
     rating: 5
     image:
-      src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothie-mango-passion-20-pack-free-bottle-open-c.jpg
+      src: https://cdn.shopify.com/s/files/1/0402/8422/5701/products/Dinosaur-Track-Set-Bubs-Kingdom-01_1024x1024@2x.jpg?v=1641789905
       alt: mango-passion
-  - title: Berry Beets
-    price: $19.99
-    reducedPrice: $9.99
+  - title: Premium Magnetic Tiles
+    price: $149.99
     link: https://livewelly.co/products/smoothie-bottle
     rating: 5
     image:
-      src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothie-berry-beets-20-pack-free-bottle-open-c.jpg
+      src: https://cdn.shopify.com/s/files/1/0402/8422/5701/products/MagneticTilesCarTrackSetBuildingToy_1024x1024@2x.jpg?v=1659701279
       alt: smoothie-bottle
+
+  
