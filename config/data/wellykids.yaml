@@ -21,10 +21,3 @@ items:
     image:
       src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Kids-instant-smoothie-mango-passion-20-pack-free-bottle-c_da39680c-c75e-4eda-9b5f-d51cf59984a5.jpg?v=1673476201
       alt: mango-passion
-  - title: Welly Kids Smoothie Bottle
-    price: $19.99
-    link: https://livewelly.co/products/smoothie-bottle
-    rating: 5
-    image:
-      src: https://cdn.shopify.com/s/files/1/0610/8774/4160/products/Welly-Smoothie-Bottle_70b3d175-a51f-4387-9349-e0b5690b86ea.png?v=1675152910
-      alt: smoothie-bottle
