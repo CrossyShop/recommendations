@@ -65,9 +65,7 @@ func getRecommandations(c *gin.Context) {
 		return
 	}
 
-	panic("TESTING SOMETHING")
-
-	// c.IndentedJSON(http.StatusOK, data)
+	c.IndentedJSON(http.StatusOK, data)
 }
 
 func main() {
